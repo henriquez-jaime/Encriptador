@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    box-sizing: border-box;    
+    
+}
+
+header{
+    width: 90%;
+    height: 70px;
+    display: flex;
+}
+
+
+body {
+    background-color: #f4f4fc;
+    display: flex;
+
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 35px;
+    height: 50px;
+    
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.contenedorCajatexto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    padding-left: 100px;
+    width: 40%;
+    height: 50%;
+    border-radius: 32px;
+
+}
+
+.cajatexto{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 40;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 24px;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+}
+
+.cajatexto::placeholder{
+    color: #0a3871;
+
+}
+
+.alerta{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    display: flex;
+    color: #495057;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+    
+}
+
+.letrasAlerta {
+    font-size: 20px;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+}
+
+.contenedorBotones {
+    position: absolute;
+    top: 500px;
+    height: 80px;
+    padding-left: 5%;
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.btn-encriptar {
+    background-color: #0a3871;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    height: 67px;
+    width: 328px;
+    margin-right: 20px;
+    font-family: 'Kanit', sans-serif;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+}
+
+.btn-desencriptar{
+    background-color: #d8dfe8;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    height: 67px;
+    width: 328px;
+    font-family: 'Kanit', sans-serif;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 700px;
+    right: 200px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.contenedorMuneco{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+
+.contenedorParrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 400px;
+    left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.contenedorParrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #343a40;
+
+}
+
+.contenedorParrafo p{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+
+}
+
+.contenedorResultado{
+    position: absolute;
+    bottom: 410px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contenedorResultado p{
+    color: #495057;
+    font-size: 25px;
+
+}
+
+.texto-resultado{
+    padding-top: 200px;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+
+}
+
+.contendedorCopiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 550px;
+    background-color: aqua;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    right: 4px;
+    flex-basis: 100%;
+    margin-bottom: 1em;
+
+}
+
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.informacion{
+    color: red;
+    font-size: 18px;
+
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
+
+
+ 
